@@ -1,0 +1,12 @@
+# Site settings
+title: Michael Funk
+email: mafunk92@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This will mark my adventures into web development.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mafunk.info" # the base hostname & protocol for your site
+twitter_username: mafunk92
+github_username:  mafunk92
+
+# Build settings
+markdown: kramdown
