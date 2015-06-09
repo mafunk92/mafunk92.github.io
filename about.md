@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![](/assets/about_img.jpg)
+![My buddy Nathan(left) and I(right) hiking](/assets/about_img.jpg)
 
 I am a recent graduate from California State University Stanislaus where I
 received a B.S. in Business Administration concentration in Accounting and
