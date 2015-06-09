@@ -5,8 +5,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Michael Funk
-tagline:
+title:               Michael
+tagline:             Funk
 url:                 http://getpoole.com
 paginate:            1
 baseurl:             ""
@@ -21,8 +21,10 @@ sass:
 # About/contact
 author:
   name:              Michael Funk
-  url:               https://twitter.com/mafunk92
   email:             mafunk92@gmail.com
+  tiwtter_username:  mafunk92
+  github_username:   mafunk92
+
 
 # Custom vars
 version:             1.0.0
