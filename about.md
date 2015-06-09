@@ -6,7 +6,7 @@ title: About
 ![My buddy Nathan(left) and I(right) hiking](/assets/about_img.jpg)
 
 I am a recent graduate from California State University Stanislaus where I
-received a B.S. in Business Administration concentration in Accounting and
+received a B.S. in Business Administration with a concentration in Accounting and
 a minor in Computer Science. In the next coming months I will be starting
 my studying regiment for the CPA exam.
 
