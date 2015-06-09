@@ -5,8 +5,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Michael
-tagline:             Funk
+title:               Funk
+tagline:             Michael
 url:                 http://getpoole.com
 paginate:            1
 baseurl:             ""
