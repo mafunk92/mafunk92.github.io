@@ -34,5 +34,6 @@ github:
 # Pages
 pages_list:
   About: '/about'
+  Projects: '/projects'
   Archive: '/archive'
   Feed: '/atom.xml'
