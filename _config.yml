@@ -1,16 +1,16 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           short-urls-jekyll
+permalink:           /blog/:short-urls-jekyll
 relative_permalinks: true
 
 # Setup
 title:               Funk
 tagline:             Michael
 url:                 http://getpoole.com
-paginate:            1
+paginate:            2
 baseurl:             ""
-paginate:            3
+
 
 # Assets
 #
@@ -35,6 +35,6 @@ github:
 # Pages
 pages_list:
   Projects: '/projects'
-  Blog: '/blog'
+  Blog: '/blog/'
   Archive: '/archive'
   Feed: '/atom.xml'
