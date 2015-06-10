@@ -1,5 +1,5 @@
 ---
-layout: Defualt
+layout: defualt
 title: Home
 ---
 
