@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           short-urls-jekyll
+permalink:           /blog/:short-urls-jekyll
 paginate_path:       "/blog/page:num/"
 relative_permalinks: true
 
