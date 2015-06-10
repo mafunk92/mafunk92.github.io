@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2015-06-06 12:43:31
-categories: Info
+categories: blog
 permalink: hello-world
 ---
  Just got this site up and running following [Josh](http://joshualande.com/jekyll-github-pages-poole/) to make some tweeks to the setup.

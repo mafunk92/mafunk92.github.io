@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 permalink: ex-content
+categories: blog
 ---
 
 
