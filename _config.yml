@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           "/blog/:short-urls-jekyll"
+permalink:           "/blog/:permalink"
 paginate_path:       "/blog/page:num/"
 relative_permalinks: true
 
@@ -10,7 +10,7 @@ title:               Funk
 tagline:             Michael
 url:                 http://getpoole.com
 paginate:            2
-baseurl:             ""
+baseurl:             "mafunk92.github.io"
 
 
 # Assets
