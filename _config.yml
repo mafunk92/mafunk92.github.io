@@ -35,7 +35,7 @@ github:
 
 # Pages
 pages_list:
-  Projects: '/projects.md'
+  Projects: '/projects'
   Blog: '/blog/'
-  Archive: '/archive.md'
+  Archive: '/archive'
   Feed: '/atom.xml'
