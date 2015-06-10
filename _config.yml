@@ -10,7 +10,7 @@ tagline:             Michael
 url:                 http://getpoole.com
 paginate:            1
 baseurl:             ""
-pagsinate:           5
+paginate:            5
 
 # Assets
 #
