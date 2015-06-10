@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: Defualt
+title: Home
 ---
 
 ![My buddy Nathan(left) and I(right) hiking](/assets/about_img.jpg)

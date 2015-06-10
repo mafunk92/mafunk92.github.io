@@ -1,33 +1,23 @@
 ---
-layout: default
+layout: defualt
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<p><img src="/assets/about_img.jpg"></p>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+<p>I am a recent graduate from California State University Stanislaus where I
+received a B.S. in Business Administration with a concentration in Accounting and
+a minor in Computer Science. In the next coming months I will be starting
+my studying regiment for the CPA exam.</p>
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+<p>My interests are:</p>
+<ul>
+<li>Technology</li>
+<li>Photography</li>
+<li>Automobiles</li>
+<li>Hiking</li>
+<li>Swimming & Water Polo</li>
+</ul>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<p>I will be using this site to document my adventures through learning web development
+subjects. So far I'm looking at learning Node.js and Angular.</p>
