@@ -20,4 +20,4 @@ My interests are:
 </ul>
 
 I will be using this site to document my adventures through learning web development
-subjects. So far I'm looking at learning Node.js and Angular.
+subjects. So far I'm looking at learning the MEAN stack. This site will go through many changes as I learn more and more about different techniques.
