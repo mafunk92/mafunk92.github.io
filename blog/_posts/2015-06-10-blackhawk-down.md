@@ -9,6 +9,8 @@ Over the past couple of days I have been trying to get Yosemite running on my PC
 
 Now that everything is set up I will begin my journey onto the MEAN stack. My goal is to develop a couple of CRUD applications while trying to learn how to use Jasmine for unit tests, Grunt/Gulp for a task runner, and Bower for package manager.
 
+For some reason I'm having trouble getting my custom domain working. It's pointing at an old github page that doesn't even have a repo anymore. I'll continue working on it because seeing mafunk92.guthub.io is getting tiring.
+
 At the same time I am applying towards accounting positions in my area. I enjoy learning new things especially in the development area. Eventually I may develop an accounting tutor like website to merge my two areas of my degree together.
 
 -Funk
