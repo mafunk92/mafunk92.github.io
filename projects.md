@@ -2,7 +2,9 @@
 layout: page
 title: Projects
 ---
-<div>
-  <h1>This is where my projects will go.</h1>
+
+  <h4>This is where my projects will go.</h4>
   <p>Planning on a parallax site and javascript tests</p>
-</div>
+  [AngularJS Blog](http://mafunk92.github.io/ngBlog)<br>
+  [Reddit Clone](http://mafunk92.github.io/postIt/)<br>
+
