@@ -8,5 +8,10 @@
     "title"    :   "test",
     "exerpt"   :   "tester",
     "content"  :   "tested"
-    }
+  },
+  {
+    "title"    :   "Markdown",
+    "exerpt"   :   "Testing Markdown",
+    "content"  :   "tested"
+  }  
 ]
