@@ -776,6 +776,7 @@ nav.tn-nav-wrap {
   
   .mobile-nav-toggle {
     margin-left:90vw;
+    min-width:50px;
   }
 }
 
