@@ -1,5 +1,5 @@
-script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBGdN8EJyxzVbCpDcuLiyZI29uiqOBJJF8";
-(function(window, google) {
+
+function initMap() {
     //map options
     var options = {
         center: {
@@ -114,7 +114,7 @@ script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBGdN8EJyxzVbCpDc
     }
 
 
-}(window, google));
+};
 
 
 $(function() {
