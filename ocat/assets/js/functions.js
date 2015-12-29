@@ -9,7 +9,7 @@ function initMap() {
         zoom: 7,
         //scrollwheel: false,
         minZoom: 7,
-        maxZoom: 16,
+        maxZoom: 13,
         streetViewControl: false,
         scaleControl: false,
         mapTypeControl:false,
