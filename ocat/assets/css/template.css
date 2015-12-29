@@ -775,7 +775,8 @@ nav.tn-nav-wrap {
   }
   
   .mobile-nav-toggle {
-    margin-left:90vw;
+    margin-left:85vw;
+    margin-right:5vw;
     min-width:50px;
   }
 }
