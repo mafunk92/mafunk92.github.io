@@ -814,7 +814,7 @@ nav.tn-nav-wrap {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 0px 10px;
+    margin: 2vh 3.5vw;
     padding: 10px 10px;
     background: white;}
 .home-sections .flex--center {
