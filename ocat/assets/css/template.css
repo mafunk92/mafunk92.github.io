@@ -846,6 +846,14 @@ nav.tn-nav-wrap {
 
 .col-50 {
   width: 50%; }
+  
+.col-65 {
+  width: 60%; }
+
+.col-35 {
+  width: 40%;
+  padding-right: 10px;
+}
 
 @media (max-width: 700px) {
   .home-sections .flex {
