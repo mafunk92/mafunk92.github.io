@@ -618,6 +618,9 @@ nav.tn-nav-wrap {
       .title-string p.back-message .icon-reply {
         margin-right: 8px; }
 
+.topper {
+    display: none;
+}
 
 .home-wrap header {
   width: 135px;
@@ -762,7 +765,10 @@ nav.tn-nav-wrap {
     display: block;
     -webkit-transform: translateY(0%);
         -ms-transform: translateY(0%);
-            transform: translateY(0%); } }
+            transform: translateY(0%); }
+  .topper{
+       display: initial;
+   }  }
 
 .home-footer a {
   color: white;
@@ -849,7 +855,7 @@ nav.tn-nav-wrap {
   .col-50 {
     width: auto; }
   .push-right {
-    margin-left: 0; } }
+    margin-left: 0; }   }
 
     .article {
       color: #222;
@@ -915,3 +921,9 @@ nav.tn-nav-wrap {
 .career a {
     text-decoration: underline;
 }
+
+.topper a {
+    text-decoration: none;
+}
+
+
