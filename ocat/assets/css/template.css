@@ -863,7 +863,11 @@ nav.tn-nav-wrap {
   .col-50 {
     width: auto; }
   .push-right {
-    margin-left: 0; }   }
+    margin-left: 0; } 
+    
+  .map-list {
+    display: none;
+  }}
 
     .article {
       color: #222;
@@ -932,6 +936,14 @@ nav.tn-nav-wrap {
 
 .topper a {
     text-decoration: none;
+}
+
+.table-responsive::-webkit-scrollbar {
+    display: none;
+}
+
+.map-list a:hover {
+  text-decoration: underline;
 }
 
 
