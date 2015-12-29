@@ -768,7 +768,12 @@ nav.tn-nav-wrap {
             transform: translateY(0%); }
   .topper{
        display: initial;
-   }  }
+   } 
+   
+  .logo {
+    display:none;
+  }
+}
 
 .home-footer a {
   color: white;
