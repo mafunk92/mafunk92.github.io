@@ -77,7 +77,7 @@ function initMap() {
     addRest(37.525817,-120.8835502,'31409','https://www.google.com/maps/place/Taco+Bell/@37.5258633,-120.883565,14z/data=!4m7!1m4!3m3!1s0x8091074462a511f1:0x8a0887832abd9557!2s3606+N+Golden+State+Blvd,+Turlock,+CA+95382!3b1!3m1!1s0x80910744632bc391:0x251584a950af7e82');
     addRest(36.9525416,-120.0770839,'31642','https://www.google.com/maps/place/Taco+Bell/@36.9525416,-120.0770892,14z/data=!4m7!1m4!3m3!1s0x80940b826169defb:0x78e04366aabd67e3!2s1420+Howard+Rd,+Madera,+CA+93637!3b1!3m1!1s0x80940b82613ccc0f:0x6c523c860cb53d0');
     addRest(36.9741499,-120.086295,'31643','https://www.google.com/maps/place/Taco+Bell/@36.9742548,-120.0859652,14z/data=!4m2!3m1!1s0x0000000000000000:0x65648032cf04e2fb');
-
+    addRest(37.7873369,-121.2560829,'31532','https://www.google.com/maps/place/1968+Daniels+St,+Manteca,+CA+95337/@37.7873369,-121.2560829,14z/data=!4m2!3m1!1s0x8090407ad1f154f3:0xe05dff574d7bfb9b');
 
 
 
