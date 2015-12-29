@@ -1,3 +1,4 @@
+script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBGdN8EJyxzVbCpDcuLiyZI29uiqOBJJF8";
 (function(window, google) {
     //map options
     var options = {
