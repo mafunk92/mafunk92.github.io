@@ -773,6 +773,10 @@ nav.tn-nav-wrap {
   .logo {
     display:none;
   }
+  
+  .mobile-nav-toggle {
+    margin-left:90vw;
+  }
 }
 
 .home-footer a {
