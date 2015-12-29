@@ -862,6 +862,11 @@ nav.tn-nav-wrap {
     width: 100%; }
   .col-50 {
     width: auto; }
+  .col-65 {
+    width: auto; }
+  .col-35 {
+    width: auto;
+  }
   .push-right {
     margin-left: 0; } 
     
