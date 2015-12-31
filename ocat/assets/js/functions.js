@@ -87,7 +87,7 @@ function initMap() {
             lng: -121.0717194
         },
         map: map,
-        icon: 'assets/office.png',
+        icon: 'assets/img/office.png',
         title: 'HQ',
         zIndex: google.maps.Marker.MAX_ZINDEX + 1
     });
@@ -101,7 +101,7 @@ function initMap() {
                 lng: lng
             },
             map: map,
-            //icon: 'assets/rest.png',
+            //icon: 'assets/img/rest.png',
             title: title,
             url: url,
         });
