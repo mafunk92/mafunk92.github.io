@@ -651,10 +651,15 @@ nav.tn-nav-wrap {
     max-width: 135px;
     font-size: 65px;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+     }
 
 .home-wrap header .logo a {
   color: #000;
+}
+
+.svg-img {
+    fill: black;
 }
 
   .home-wrap header .site-nav ul {
