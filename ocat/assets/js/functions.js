@@ -101,7 +101,7 @@ function initMap() {
                 lng: lng
             },
             map: map,
-            icon: 'assets/img/rest.png',
+            icon: 'assets/img/rest_p.png',
             title: title,
             url: url,
         });
