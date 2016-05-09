@@ -7,12 +7,13 @@ description: >
   This is my personal blog about my adventures as a Software Developer.
 
 # Your information
-email: mafunk92@gmail.com
+#email: mafunk92@gmail.com
 author: Michael Funk
 avatar: "//scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10565025_10152265992031969_4427957563900783143_n.jpg?oh=b77d92917f6a0031462ae6e5d7bc8a8c&oe=57E829C0" #"//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 profile: Software Developer
 twitter_username: mafunk92
 github_username:  mafunk92
+linkedin_username:  michaelafunk
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
