@@ -59,6 +59,7 @@ $header-fg: #FFF;
   background: $header-link;
   overflow: hidden;
   border-radius: 0px;
+  box-shadow: inset 0px 1px 3px rgba(0,0,0,0.5);
 }
 
 .progressBarValue {
