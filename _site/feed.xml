@@ -6,9 +6,39 @@
 </description>
     <link>http://mafunk.info/</link>
     <atom:link href="http://mafunk.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 May 2016 21:37:13 -0500</pubDate>
-    <lastBuildDate>Mon, 09 May 2016 21:37:13 -0500</lastBuildDate>
+    <pubDate>Tue, 10 May 2016 19:44:06 -0500</pubDate>
+    <lastBuildDate>Tue, 10 May 2016 19:44:06 -0500</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Reading List</title>
+        <description>&lt;p&gt;I have come up with a reading list that I plan to read during some of my off time. These books have been recommended to my from my current team lead. The goal is to work smart, not hard. Efficiency is key, and maintainable code is best.&lt;/p&gt;
+
+&lt;h2 id=&quot;clean-code&quot;&gt;Clean Code&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://ecx.images-amazon.com/images/I/51oXyW8WQwL._SX387_BO1,204,203,200_.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-clean-coder&quot;&gt;The Clean Coder&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://ecx.images-amazon.com/images/I/512NzCU0wfL._SX383_BO1,204,203,200_.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;agile-principles-patterns-and-practices&quot;&gt;Agile Principles, Patterns, and Practices&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://ecx.images-amazon.com/images/I/51rdbk2iTQL._SX372_BO1,204,203,200_.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-lean-startup&quot;&gt;The Lean Startup&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://ecx.images-amazon.com/images/I/51vN15YCJyL.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rework&quot;&gt;Rework&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://ecx.images-amazon.com/images/I/419F9j3GqxL._SL500_.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 May 2016 08:12:13 -0500</pubDate>
+        <link>http://mafunk.info/records/readinglist</link>
+        <guid isPermaLink="true">http://mafunk.info/records/readinglist</guid>
+        
+        
+        <category>info</category>
+        
+        <category>books</category>
+        
+      </item>
     
       <item>
         <title>Hello World!</title>
