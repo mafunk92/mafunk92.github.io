@@ -1,26 +1,22 @@
 # Site settings
 title: mafunk.info
-url: "http://mafunk.info"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
-#timezone: Asia/Chongqing
+url: "http://mafunk.info"
+baseurl: ""
 description: >
   This is my personal blog about my adventures as a Software Developer.
 
-# Your information
 #email: mafunk92@gmail.com
 author: Michael Funk
-avatar: "//scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10565025_10152265992031969_4427957563900783143_n.jpg?oh=b77d92917f6a0031462ae6e5d7bc8a8c&oe=57E829C0" #"//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+avatar: "//scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10565025_10152265992031969_4427957563900783143_n.jpg?oh=b77d92917f6a0031462ae6e5d7bc8a8c&oe=57E829C0"
+
 profile: Software Developer
 twitter_username: mafunk92
 github_username:  mafunk92
 linkedin_username:  michaelafunk
-
-# Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
-disqus_shortname: mafunk92   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+disqus_shortname: mafunk92
 
 permalink: /archivers/:title
+
 gems:
  - jekyll-paginate
  - jekyll-gist

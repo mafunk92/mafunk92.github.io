@@ -6,32 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hello World! « mafunk.info</title>
-  <meta name="description" content="Total NewbI will attempt to share my experience as I develop as a Software Developer. As I work in a .Net shop most of the experiences will be with C# and we...">
+  <title>Windows Communication Foundation « mafunk.info</title>
+  <meta name="description" content="This past week I was tasked with writing an interface for the Aspect telephony system. The first thing I noticed when looking at the documentation is that I ...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mafunk.info/records/hello">
+  <link rel="canonical" href="http://mafunk.info/records/wcf">
   <link rel="alternate" type="application/rss+xml" title="mafunk.info" href="http://mafunk.info/feed.xml" />
   <!-- Begin Jekyll SEO tag v1.4.0 -->
-<title>Hello World! - mafunk.info</title>
-<meta property="og:title" content="Hello World!" />
-<meta name="description" content="Total NewbI will attempt to share my experience as I develop as a Software Developer. As I work in a .Net shop most of the experiences will be with C# and web development." />
-<meta property="og:description" content="Total NewbI will attempt to share my experience as I develop as a Software Developer. As I work in a .Net shop most of the experiences will be with C# and web development." />
-<link rel="canonical" href="http://mafunk.info/records/hello" />
-<meta property="og:url" content="http://mafunk.info/records/hello" />
+<title>Windows Communication Foundation - mafunk.info</title>
+<meta property="og:title" content="Windows Communication Foundation" />
+<meta name="description" content="This past week I was tasked with writing an interface for the Aspect telephony system. The first thing I noticed when looking at the documentation is that I will be interacting with a .NET WCF service. Looking around the web and talking to my teammates I found out it had replaced .NET Remoting." />
+<meta property="og:description" content="This past week I was tasked with writing an interface for the Aspect telephony system. The first thing I noticed when looking at the documentation is that I will be interacting with a .NET WCF service. Looking around the web and talking to my teammates I found out it had replaced .NET Remoting." />
+<link rel="canonical" href="http://mafunk.info/records/wcf" />
+<meta property="og:url" content="http://mafunk.info/records/wcf" />
 <meta property="og:site_name" content="mafunk.info" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2016-05-08T14:12:13-05:00" />
-<link rel="next" href="http://mafunk.info/records/reading-list" title="Reading List" />
-<link rel="prev" href="http://mafunk.info/archivers/hello" title="Welcome to Jekyll and EasyBook" />
+<meta property="article:published_time" content="2016-05-11T08:12:13-05:00" />
+<link rel="prev" href="http://mafunk.info/records/reading-list" title="Reading List" />
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "Hello World!",
-    "datePublished": "2016-05-08T14:12:13-05:00",
-    "description": "Total NewbI will attempt to share my experience as I develop as a Software Developer. As I work in a .Net shop most of the experiences will be with C# and web development.",
-    "url": "http://mafunk.info/records/hello"
+    "headline": "Windows Communication Foundation",
+    "datePublished": "2016-05-11T08:12:13-05:00",
+    "description": "This past week I was tasked with writing an interface for the Aspect telephony system. The first thing I noticed when looking at the documentation is that I will be interacting with a .NET WCF service. Looking around the web and talking to my teammates I found out it had replaced .NET Remoting.",
+    "url": "http://mafunk.info/records/wcf"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -71,15 +70,24 @@
           <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Hello World!</h1>
-    <p class="post-meta">May 8, 2016</p>
+    <h1 class="post-title">Windows Communication Foundation</h1>
+    <p class="post-meta">May 11, 2016</p>
   </header>
 
   <article class="post-content">
-    <h1 id="total-newb">Total Newb</h1>
-<p>I will attempt to share my experience as I develop as a Software Developer. As I work in a .Net shop most of the experiences will be with C# and web development.</p>
+    <p>This past week I was tasked with writing an interface for the Aspect telephony system. The first thing I noticed when looking at the documentation is that I will be interacting with a .NET WCF service. Looking around the web and talking to my teammates I found out it had replaced .NET Remoting.</p>
 
-<p>My goals are to dive into the MEAN stack focusing on Angular 2 and also trying out electron for applications. I will try to post at least once a week at a minimum sharing what I learned that week. I dive into web development on my free time as it is different from what I do at work. I want to try and build applications that will integrate what I have learned in my business curriculum during my undergrad.</p>
+<p>Lucky for me I was given sample code which it had sample code for connecting and receiving events from the service. I was able to get the initial connection running where I Open the connection, getting a session id for future requests, subscribing to event types, and then enabling events to be directed at my interface by supplying a callback url.</p>
+
+<p>For the first day I was struggling with not getting any events back after a simple request. The error showing up was that the connection was actively being denied which comes down to two options: the service isn’t listening on the port you supplied or the firewall denied the connection; not including supplying the wrong url to your service.</p>
+
+<p>Luckily I had access to a computer in our lab that I new had connected to the Aspect server. Deploy my code to the box in the lab and <strong>BAM</strong>, I get an event back immediately. My team lead told my getting the connection was the hardest part about starting a new telephony interface. So I was excited to be over the biggest hump of the project.</p>
+
+<p>The next things I worked on was creating a heartbeat monitoring. The Aspect service sends out a heartbeat event and expects any integer value back. If a certain number of heartbeat events are missed it closes the connection. So I log the current time(UTC) of when I get the event.</p>
+
+<p>I then have a timer ticking every 2 minutes that checks if a heartbeat hasn’t been received in over a minute and a half. If that scenario is true is stops the interface and then starts again. Now on my start cycle if I cannot connect I keep trying until I get connection again. The delay before retrying again starts at 2 seconds and doubles until it is up to 5 minutes.</p>
+
+<p>We also maintain a agent white list in which basically supplies the agents that we are watching. For every agent that is on the list, I add a filter to the connection to receive events for those agents only. When there is a change in the file I create a list based on the new list and what the pervious list to know which agents need to be removed from the filter and which ones need to be added. This is used by using the <em>EXCEPT</em> method of a List.</p>
 
   </article>
   
