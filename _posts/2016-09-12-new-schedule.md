@@ -15,28 +15,28 @@ Some have said it takes about a month to create a new habit. So now I am going t
 ## New Beginnings 
 
 #### Monday to Friday
-| Time | Description | %|
-| ----- | ------------- | -----|
-| 6:00 - 6:30 | Wake Up| 2.08 |
-| 6:30 - 7:00 | Commute | 2.08 |
-| 7:00 - 4:00 | Work | 37.5 |
-| 4:00 - 5:00 |  Commute | 4.17 |
-| 5:00 - 6:00 | Cook/Relax | 4.17 |
-| 6:00 - 7:00 | Read | 4.17 |
-| 7:00 - 10:00 | Learn Web Apps | 12.5 |
-| 10:00 - 11:00 | Watch Shows | 4.17 |
-| 11:00 - 6:00 | Sleep | 29.2 |
+| Time | Description | %| </br>
+| ----- | ------------- | -----|</br>
+| 6:00 - 6:30 | Wake Up| 2.08 |</br>
+| 6:30 - 7:00 | Commute | 2.08 |</br>
+| 7:00 - 4:00 | Work | 37.5 |</br>
+| 4:00 - 5:00 |  Commute | 4.17 |</br>
+| 5:00 - 6:00 | Cook/Relax | 4.17 |</br>
+| 6:00 - 7:00 | Read | 4.17 |</br>
+| 7:00 - 10:00 | Learn Web Apps | 12.5 |</br>
+| 10:00 - 11:00 | Watch Shows | 4.17 |</br>
+| 11:00 - 6:00 | Sleep | 29.2 |</br>
 
 #### Weekend
-| Time | Description | %|
-| ----- | ------------- | -----|
-| 8:00 - 8:30 | Wake Up| 2.08 |
-| 8:30 - 10:00 | Read | 6.25 |
-| 10:00 - 2:00 | Learn Web Apps | 16.2 |
-| 2:00 - 3:00 | Cook/Relax | 4.17 |
-| 3:00 - 7:00 | Learn Web Apps | 16.2 |
-| 7:00 - 12:00 | Fun/Relax/Learn| 20.8 |
-| 12:00 - 8:00 | Sleep | 33.3 |
+| Time | Description | %|</br>
+| ----- | ------------- | -----|</br>
+| 8:00 - 8:30 | Wake Up | 2.08 |</br>
+| 8:30 - 10:00 | Read | 6.25 |</br>
+| 10:00 - 2:00 | Learn Web Apps | 16.2 |</br>
+| 2:00 - 3:00 | Cook/Relax | 4.17 |</br>
+| 3:00 - 7:00 | Learn Web Apps | 16.2 |</br>
+| 7:00 - 12:00 | Fun/Relax/Learn | 20.8 |</br>
+| 12:00 - 8:00 | Sleep | 33.3 |</br>
 
 
 Hopefully this schedule is enough for me to relax, and flexible enough for me to stick to it. Ever since I have attended Cal Hacks in Fall 2015 I have been interested in web applications and single page applications mainly focusing on angular at the time. As of now I plan on doing a daily blog recapping what I have read and what I have learned from that days post work journey.
