@@ -1,4 +1,5 @@
 # Site settings
+name: Michael Funk's Blog
 title: mafunk.info
 url: "http://mafunk.info"
 baseurl: ""

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4eeb824-b080-4d85-96af-ef30f2cc01b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-09-12-new-schedule.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <ignored path="mafunk92.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="15">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="365" />
+    <option name="x" value="179" />
     <option name="y" value="23" />
     <option name="width" value="1184" />
     <option name="height" value="1175" />
@@ -239,15 +239,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473734579720</updated>
-      <workItem from="1473734580923" duration="1182000" />
+      <workItem from="1473734580923" duration="1301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1182000" />
+    <option name="totallyTimeSpent" value="1301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="365" y="23" width="1184" height="1175" extended-state="0" />
+    <frame x="179" y="23" width="1184" height="1175" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2837838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -326,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
           <folding />
         </state>
       </provider>
